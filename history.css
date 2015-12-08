@@ -20,7 +20,7 @@ a {
 
 p {
   padding-left: 7px;
-  font-size: 85%;
+  font-size: 100%;
 }
 
 body {
@@ -34,8 +34,8 @@ body {
 img {
   float: left;
   padding-right: 9px;
-  width: 150px;
-  height: 214px;
+  width: 120px;
+  height: 171;
 }
 
 footer p {
