@@ -22,7 +22,7 @@ h2 {
 h4 {
   padding-left: 15px;
   position: relative;
-  margin-top: -5px
+  margin-top: -3px
 }
 
 a {
@@ -107,7 +107,6 @@ nav ul li a {
     font-family: Futura;
     text-align: left;
   overflow-x: hidden;
-  z-index:1000;
 }
 
 nav ul li a:hover {
