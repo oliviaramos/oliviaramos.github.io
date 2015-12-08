@@ -18,14 +18,15 @@ img {
 
 p {
   font-size: 85%;
-  padding-right: 275px
+  padding-right: 175px
 }
 
 footer p {
   font-size: 75%;
+  padding-right: 0px;
   text-align: center;
   font-family: Futura;
-  position: relative;
+  position: fixed;
   top: 95%;
   left: 50%;
   margin-right: -50%;
