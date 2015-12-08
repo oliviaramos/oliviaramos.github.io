@@ -1,7 +1,5 @@
-/* Change colors for everything */
-
 body {
-  background-image: url("https://cloud.githubusercontent.com/assets/15823659/11649135/a82ae4fc-9d49-11e5-9dd0-b3e262c48bee.png");
+  background: #3a4952;
 }
 
 h1 {
@@ -51,7 +49,7 @@ nav ul li {
   float: left;
   display: block;
   position: relative
-    border-style: 10px solid #4B8492;
+    border-style: 10px solid transparent;
 }
 
 nav ul li a {
@@ -67,7 +65,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #f4f5f6;
-  background: #42687C;
+  background: #6f808d;
 }
 
 nav ul li:hover ul {
@@ -90,11 +88,11 @@ nav li:hover li {
 }
 
 nav li:hover a {
-  background: #42687C;
+  background: #6f808d;
 }
 
 nav li:hover li a:hover {
-  background: #8096A6;
+  background: #b4bfc9;
 }
 
 /* When deleted still works fine? */
