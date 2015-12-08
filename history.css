@@ -11,25 +11,29 @@ header {
 h1 {
   font-family: Playfair Display; serif;
   font-size: 200%;
-  padding-left: 15px;
+  padding-left: 7px;
   color: #f4f5f6;
 }
 
 h2 {
-  padding-left: 15px;
+  padding-left: 7px;
 }
 
 h4 {
-  padding-left: 15px;
+  padding-left: 7px;
+  position: relative;
+  margin-top: -25px
 }
 
 a {
-  padding-left: 15px;
+  padding-left: 7px;
 }
 
 p {
-  padding-left: 15px;
+  padding-left: 7px;
   font-size: 100%;
+  position: relative;
+  margin-top: -10px
 }
 
 body {
@@ -43,7 +47,7 @@ body {
 img {
   float: left;
   padding-right: 9px;
-  padding-left: 15px;
+  padding-left: 7px;
   width: 120px;
   height: 171;
 }
