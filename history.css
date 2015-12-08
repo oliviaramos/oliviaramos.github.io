@@ -34,6 +34,7 @@ body {
 img {
   float: left;
   padding-right: 9px;
+  padding-left: 7px;
   width: 120px;
   height: 171;
 }
