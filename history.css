@@ -12,6 +12,8 @@ body {
 img {
   float: left;
   padding-right: 9px;
+  width: 150px;
+  height: 214px;
 }
 
 p {
