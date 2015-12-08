@@ -22,7 +22,7 @@ footer p {
   font-size: 75%;
   text-align: center;
   font-family: Futura;
-  position: absolute;
+  position: relative;
   top: 95%;
   left: 50%;
   margin-right: -50%;
