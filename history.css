@@ -1,0 +1,100 @@
+/* Adjust all colors */
+
+h1 {
+  font-family: Bell MT;
+  font-size: 200%;
+}
+
+body {
+	font-family: Futura;
+}
+
+img {
+  float: left;
+  padding-right: 9px;
+}
+
+p {
+  font-size: 85%;
+}
+
+footer p {
+  font-size: 75%;
+  text-align: center;
+  font-family: Futura;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/* Start of Navigation Bar */
+nav {
+	background-color: #b4bfc9;
+	text-align: right;
+}
+
+nav ul {
+  	list-style: none;
+  	padding: 0px;
+  	margin: 0px;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	position: relative
+    border-style: 0px solid #b4bfc9;
+}
+
+nav ul li a {
+	display: block;
+	background: #b4bfc9;
+	padding: 7px 18px 5px 12px;
+	text-decoration: none;
+    white-space: nowrap;
+    color: #162127;
+    font-family: Futura;
+    text-align: left;
+}
+
+nav ul li a:hover {
+	color: #f4f5f6;
+	background: #b4bfc9;
+}
+
+nav ul li:hover ul {
+	display:block;
+	position: absolute;
+}
+
+nav ul ul {
+	display: none;
+	positon: absolute; top: 100%;
+}
+
+nav ul ul li {
+	float: none;
+	position: relative;
+}
+
+nav li:hover li {
+	float: none;
+}
+
+nav li:hover a {
+	background: #f4f5f6;
+}
+
+nav li:hover li a:hover {
+	background: #b4bfc9;
+}
+
+/* When deleted still works fine? */
+#drop-nav li ul li {
+	border-top: 0px;
+}
+/* End Navigation Bar */
