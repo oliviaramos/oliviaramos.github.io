@@ -20,7 +20,7 @@ a {
 
 p {
   padding-left: 7px;
-  font-size: 85%;
+  font-sizeL 85%;
 }
 
 body {
@@ -49,7 +49,7 @@ footer p {
 
 /* Start of Navigation Bar */
 nav {
-	background-color: #b4bfc9;
+	background-color: #42687C;
 	text-align: right;
 }
 
@@ -65,23 +65,25 @@ nav ul li {
 	float: left;
 	display: block;
 	position: relative
-    border-style: 0px solid #b4bfc9;
+    border-style: 0px solid #42687C;
 }
 
 nav ul li a {
 	display: block;
-	background: #b4bfc9;
+	background: #42687C;
 	padding: 7px 18px 5px 12px;
 	text-decoration: none;
     white-space: nowrap;
-    color: #162127;
+    color: #f4f5f6;
     font-family: Futura;
     text-align: left;
 }
 
 nav ul li a:hover {
 	color: #f4f5f6;
-	background: #b4bfc9;
+	background: #8096A6;
+  padding: 7px 18px 5px 12px;
+  white-space: nowrap;
 }
 
 nav ul li:hover ul {
@@ -104,7 +106,7 @@ nav li:hover li {
 }
 
 nav li:hover a {
-	background: #f4f5f6;
+	background: #8096A6;
 }
 
 nav li:hover li a:hover {
@@ -116,3 +118,4 @@ nav li:hover li a:hover {
 	border-top: 0px;
 }
 /* End Navigation Bar */
+
