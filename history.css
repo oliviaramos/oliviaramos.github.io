@@ -107,6 +107,7 @@ nav ul li a {
     font-family: Futura;
     text-align: left;
   overflow-x: hidden;
+  z-index:1000;
 }
 
 nav ul li a:hover {
