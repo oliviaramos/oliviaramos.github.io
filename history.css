@@ -2,31 +2,39 @@
 
 h1 {
   font-family: Bell MT;
-  font-size: 200%;
+  font-size: 225%;
+  padding-left: 7px;
+}
+
+h2 {
+  padding-left: 7px;
+}
+
+h4 {
+  padding-left: 7px;
+}
+
+a {
+  padding-left: 7px;
+}
+
+p {
+  padding-left: 7px;
 }
 
 body {
 	font-family: Futura;
-}
-
-img {
-  float: left;
-  padding-right: 9px;
-  width: 150px;
-  height: 214px;
-}
-
-p {
-  font-size: 85%;
-  padding-right: 175px
+  color: #f4f5f6;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://cloud.githubusercontent.com/assets/15823659/11649135/a82ae4fc-9d49-11e5-9dd0-b3e262c48bee.png")
 }
 
 footer p {
   font-size: 75%;
-  padding-right: 0px;
   text-align: center;
   font-family: Futura;
-  position: fixed;
+  position: absolute;
   top: 95%;
   left: 50%;
   margin-right: -50%;
@@ -35,7 +43,7 @@ footer p {
 
 /* Start of Navigation Bar */
 nav {
-	background-color: #b4bfc9;
+	background-color: #42687C;
 	text-align: right;
 }
 
@@ -51,23 +59,25 @@ nav ul li {
 	float: left;
 	display: block;
 	position: relative
-    border-style: 0px solid #b4bfc9;
+    border-style: 0px solid #42687C;
 }
 
 nav ul li a {
 	display: block;
-	background: #b4bfc9;
+	background: #42687C;
 	padding: 7px 18px 5px 12px;
 	text-decoration: none;
     white-space: nowrap;
-    color: #162127;
+    color: #f4f5f6;
     font-family: Futura;
     text-align: left;
 }
 
 nav ul li a:hover {
 	color: #f4f5f6;
-	background: #b4bfc9;
+	background: #8096A6;
+  padding: 7px 18px 5px 12px;
+  white-space: nowrap;
 }
 
 nav ul li:hover ul {
@@ -90,7 +100,7 @@ nav li:hover li {
 }
 
 nav li:hover a {
-	background: #f4f5f6;
+	background: #8096A6;
 }
 
 nav li:hover li a:hover {
@@ -102,3 +112,4 @@ nav li:hover li a:hover {
 	border-top: 0px;
 }
 /* End Navigation Bar */
+
