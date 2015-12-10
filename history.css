@@ -20,7 +20,7 @@ h2 {
 }
 
 h4 {
-  padding-left: 30px;
+  padding-left: 0px;
   position: relative;
   margin-top: -3px
 }
@@ -30,7 +30,7 @@ a {
 }
 
 p {
-  padding-left: 30px;
+  padding-left: 0px;
   font-size: 80%;
   position: relative;
   margin-top: -10px
