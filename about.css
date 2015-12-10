@@ -45,10 +45,10 @@ body {
 }
 
 img {
-   float: left;
+  float: left;
   padding-right: 9px;
   padding-left: 30px;
-  margin-top: -7px
+  margin-top: -15px
 }
 
 footer p {
